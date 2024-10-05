@@ -1,3 +1,4 @@
+add_definitions(-DUSE_DUCKDB_SHELL_WRAPPER)
 set(CUR_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 include_directories(../sqlite3_udf_api/include)
